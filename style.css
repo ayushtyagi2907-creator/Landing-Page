@@ -1,0 +1,136 @@
+* {
+    background-color: rgb(1, 1, 254);
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    border: 5px solid blue;
+    height: 150px;
+}
+
+.logo {
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.title {
+    color: white;
+    font-size: 70px;
+    font-family: monospace;
+    margin-left: 100px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+aside{
+    border: 5px solid white;
+    width: 450px;
+    height: 450px;
+    margin-left: 60%;
+margin-top: -31%;
+background-color: white;
+border-radius: 5px;
+}
+.button{
+    border: 2px solid rgb(3, 244, 3);
+    border-radius: 30px;
+    padding: 10px;
+   margin-left: 100px;
+   width: 200px;
+   margin-top: 50px;
+   text-align: center;
+   background-color:rgb(3, 244, 3) ;
+   color: white;
+   font-weight: normal;
+   cursor: pointer;
+}
+.button:hover{
+    background-color: #6A5ACD;
+    
+}
+.signup{
+background-color: white;
+margin-top: 30px;
+text-align: center;
+}
+.name,.email,.contact{
+    background-color: whitesmoke;
+    padding-left: 20px;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 50px;
+    width: 330px;
+}
+.type{
+    background-color: whitesmoke;
+    padding-left: 20px;
+    margin-top: 25px;
+    height: 50px;
+    margin-left: 50px;
+    width: 355px;
+}
+.register{
+    border: 2px solid blue;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 350px;
+    margin-left: 50px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+.register:hover{
+    background-color: #6A5ACD;
+border: 4px solid  blue;
+}
+.di{
+    border: 2px solid blue;
+    height: 150px;
+    margin-top: -80px;
+    margin-left: 700px;
+    margin-right: 50px;
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+    
+}
+
+.home{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+}
+.home:hover{
+    color: rgb(219, 255, 42);
+    text-decoration: underline;
+}
+.get{
+    border: 2px solid white;
+    height:20px;
+    padding: 10px;
+    padding-left: 20px;
+    
+    padding-right: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+}
+.get:hover{
+    
+    background-color: #6A5ACD;
+}
